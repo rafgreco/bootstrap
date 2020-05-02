@@ -96,8 +96,9 @@ Custom feedback styles apply custom colors, borders, focus styles, and backgroun
     <button class="btn btn-primary" type="submit">Submit form</button>
   </div>
 </form>
+{{< /example >}}
 
-<script>
+{{< example lang="js" show_preview="false" >}}
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function () {
   'use strict';
@@ -118,7 +119,6 @@ Custom feedback styles apply custom colors, borders, focus styles, and backgroun
       }, false);
     });
 })();
-</script>
 {{< /example >}}
 
 ## Browser defaults
@@ -298,7 +298,7 @@ Validation styles are available for the following form controls and components:
     <div class="invalid-feedback">Example invalid form file feedback</div>
   </div>
 
-  <div class="mb-3">
+  <div class="mt-5 mb-3">
     <button class="btn btn-primary" type="submit" disabled>Submit form</button>
   </div>
 </form>
@@ -358,7 +358,7 @@ If your form layout allows it, you can swap the `.{valid|invalid}-feedback` clas
       Please provide a valid zip.
     </div>
   </div>
-  <div class="col-12">
+  <div class="col-12 mt-5">
     <button class="btn btn-primary" type="submit">Submit form</button>
   </div>
 </form>
